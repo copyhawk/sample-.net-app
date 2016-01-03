@@ -16,11 +16,10 @@ CopyHawk is a very easy way to manage your content. Follow these simple steps to
 7.	Search for "Copyhawk"
 8.	Install the CopyHawk.Client in your project
 9.	Open Default.aspx
-10.	Replace the inner content of the first <h1> tags with the following: 
-"<asp:CopyHawk data-label=Footer runat=server></asp:CopyHawk>"
-11.	Add "<%@ Register TagPrefix="asp" Namespace="CopyHawkClient" Assembly="CopyHawkClient" %>" to your .aspx page.
+10.	Replace the inner content of the first h1 tags with the following: `<asp:CopyHawk data-label=Footer runat=server></asp:CopyHawk>`
+11.	Add `<%@ Register TagPrefix="asp" Namespace="CopyHawkClient" Assembly="CopyHawkClient" %>` to your .aspx page.
 12.	Open your web.config file and add the following entry inside the <configuration> tag:
-"<appSettings><add key="CopyHawkSiteId" value="566c81dfc1b15e9e1e2d89c7"/></appSettings>"
+`<appSettings><add key="CopyHawkSiteId" value="566c81dfc1b15e9e1e2d89c7"/></appSettings>`
 13.	Run your app!
 14.	The main page's html content is now being delivered from CopyHawk!
 
@@ -31,5 +30,7 @@ CopyHawk is a very easy way to manage your content. Follow these simple steps to
 4.	Run your app!
 
 We will be adding more functionality after the initial release so please check in with us from time to time.
+<br>
 Thanks,
-CopyHawk Team
+<br>
+<h3>CopyHawk Team</h3>
