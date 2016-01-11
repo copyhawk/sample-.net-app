@@ -1,4 +1,4 @@
-# Copyhawk-Sample-.NET-Application
+# Sample .NET Application
 This application will is the result of following the readme steps to get started with Copyhawk.
 
 CopyHawk is a very easy way to manage your content. Follow these simple steps to get started from scratch:
